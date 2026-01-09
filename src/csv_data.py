@@ -3,7 +3,7 @@ import os
 
 # Find project root
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CSV_PATH = os.path.join(BASE_DIR, "data", "C:\\Users\\Arpitha.s\\Desktop\\Samrat_chatbot\\data\\All_combined_22-25.csv")
+CSV_PATH = os.path.join(BASE_DIR, "data", "All_combined_22-25.csv")
 
 # Load CSV
 df = pd.read_csv(CSV_PATH)
